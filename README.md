@@ -25,7 +25,7 @@ RENAME: This is used to rename an object existing in the database.
 create table student(rollno numeric(4), name varchar(50), age numeric(2),
 address varchar(10), phoneno numeric(10));
 ### OUTPUT:
-![Screenshot 2023-10-02 203221](https://github.com/Adhithyaram29D/F2_DBMS/assets/119393540/e6cb9b88-0de6-4b6b-9415-8309f456d714)
+![1](https://github.com/chaitanya18c/F2_DBMS/assets/119392724/13a8bdd4-aa0c-4851-b9e9-77498857dd4e)
 
 ### 2) Change the above student table by adding another attribute department
 
@@ -33,8 +33,7 @@ address varchar(10), phoneno numeric(10));
 alter table student add department varchar(4);
 
 ### OUTPUT:
-
-![Screenshot 2023-10-02 203409](https://github.com/Adhithyaram29D/F2_DBMS/assets/119393540/2d7244ab-c40d-48cd-a2b7-ddd4662aec60)
+![2](https://github.com/chaitanya18c/F2_DBMS/assets/119392724/054ac71f-b9fe-46e7-b046-5963b5525820)
 
 ### 3) Drop the student table
  
@@ -42,8 +41,7 @@ alter table student add department varchar(4);
 drop table student;
 
 ### OUTPUT:
-![Screenshot 2023-10-02 203543](https://github.com/Adhithyaram29D/F2_DBMS/assets/119393540/8a20bdb5-ddf5-4aa4-89f7-466e82bf054e)
-
+![3](https://github.com/chaitanya18c/F2_DBMS/assets/119392724/a25cd0e3-ac55-4a2f-88e1-297346d9cd56)
 
 ### 4) Delete the student table using truncate keyword
 
@@ -51,7 +49,7 @@ drop table student;
 truncate table student;
 
 ### OUTPUT:
-![Screenshot 2023-10-02 204108](https://github.com/Adhithyaram29D/F2_DBMS/assets/119393540/374dc94c-1518-45f5-ab73-2033e223294b)
+![4](https://github.com/chaitanya18c/F2_DBMS/assets/119392724/44e4b5de-2760-4776-adeb-1412433ef304)
 
 ### 5) Rename the student table to mystudent
 
@@ -59,7 +57,7 @@ truncate table student;
 alter table student rename to student;
 
 ### OUTPUT:
-![Screenshot 2023-10-02 204156](https://github.com/Adhithyaram29D/F2_DBMS/assets/119393540/9614eea4-5444-4149-9733-6e2e670c055c)
+![5](https://github.com/chaitanya18c/F2_DBMS/assets/119392724/524d9009-62ef-4939-9f64-923d59a19fca)
 
 ### Result:
 To create a student database and execute DDL queries using SQL is executed successfully.
